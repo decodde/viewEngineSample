@@ -1,0 +1,18 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="http://localhost:5000/gui-ne.css")
+        title view engine sample
+    body.gui-ne-body
+        .gui-ne-card-df
+            h2.gui-ne-text #{id}
+        if name
+            div.gui-ne-col-2
+                .gui-ne-card-list
+                    h4.gui-ne-text Name: #{name}
+                .gui-ne-card-list 
+                    h5.gui-ne-text Age: #{age}
+
+include bottom
